@@ -1,0 +1,35 @@
+//---------- INPUT FILE information
+-genf $genotype
+-phef $phenotype
+-ped NA
+-fixf $fixedeffect
+-ref $refID
+-classf $class.gz
+-sc 1 //raw genotype values 0, 1 or 2
+-tc $trCol //column number(s) of the phenotype(s) to use 
+-wtc $wtCol //weight columns in phenotype file to use
+-h $heriVal
+-maf 0.002
+//---------- OUTPUT FILE information
+-path $outpath
+-pre $pref
+-d 1 //output detail; 1 = means only, 2 = full output
+-fext csv //output extension type
+-chains $Nchain //represents computer thread(s)
+//---------- MCMC parameters
+-I 50000 //number of iterations
+-burn 25000 //length of burn in
+-bs NA //block size (ideally should be a multiple of the #SNPs
+-thin 1 //thinning rate on output values. Minimum value is 1. 
+-drop NA // drop rate. For example, this drops a SNP if in the last 200 iterations it was only in the model once
+//---------- mixture distribution information
+-pi 0.94,0.049,0.01,0.001 //proportion in each SNP effect distribution
+-alloc 0.0,0.0001,0.001,0.01 /allocation of additive genetic variance
+-alpha 1,1,1,1 //dirichlet alpha paramaters
+//---------- Optional extras
+-s NA
+-DAV davop
+-timing NA
+-force forceop
+-show 0
+-L 0
