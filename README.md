@@ -1,5 +1,5 @@
 # e-sQTL_h2
-Scripts used in heritability analysis of eQTL and sQTL
+Scripts related to heritability analysis of eQTL and sQTL
 
 bayesrc.sh is the shell script for conducting BayesRC;
 
