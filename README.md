@@ -1,4 +1,4 @@
-[![DOI](https://sandbox.zenodo.org/badge/572028143.svg)](https://sandbox.zenodo.org/badge/latestdoi/572028143)
+[![DOI](https://sandbox.zenodo.org/badge/572028143.svg)](https://sandbox.zenodo.org/account/settings/github/repository/rxiangr/e-sQTL_h2)
 
 # e-sQTL_h2
 Scripts related to heritability analysis of eQTL and sQTL
