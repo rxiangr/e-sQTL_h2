@@ -1,3 +1,4 @@
+https://sandbox.zenodo.org/badge/572028143.svg
 # e-sQTL_h2
 Scripts related to heritability analysis of eQTL and sQTL
 
