@@ -1,4 +1,5 @@
-https://sandbox.zenodo.org/badge/572028143.svg
+[![DOI](https://sandbox.zenodo.org/badge/572028143.svg)](https://sandbox.zenodo.org/badge/latestdoi/572028143)
+
 # e-sQTL_h2
 Scripts related to heritability analysis of eQTL and sQTL
 
